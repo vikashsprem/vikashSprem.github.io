@@ -1,0 +1,139 @@
+ .image{
+    display: flex;
+    justify-content: center;
+  }
+  .forum{
+    display: flex;
+    justify-content: center;
+  }
+  .center{
+    display: flex;
+    justify-content: center;
+   width: 20rem;
+   height: 2rem;
+  }
+  .submit{
+    
+    margin-top: 0.8rem;
+    display: flex;
+    justify-content: center;
+  }
+  .google{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  button{
+    width: 5rem;
+  }
+  .inpu{
+    border-radius: 5px;
+    width: 20rem;
+    height: 2rem;
+  }
+
+
+  <!DOCTYPE html>
+<html lang="en">
+    
+<link rel="stylesheet" href="google.css">
+    <head>
+        <title>Search</title>
+    </head>
+    
+    <body>
+     <div class="google">
+        <div class="image">   <img class="imag" src="image/Google.jpg" alt="logo" width="280" height="115"></div>
+        <div class="forum">
+            <form action="https://www.google.com/search">
+
+                <div class="center">
+                    <input type="text" class="inpu" name="hello">
+                </div>
+    
+                <div class="submit">
+                   <button type="submit" value="Google Search">submit</button> 
+                </div>
+    
+            </form>
+        </div>
+
+     </div>
+    </body>
+</html>
+
+
+.center {
+    position: absolute;
+    left: 36%;
+    top: 40%;
+    transform: translate(-35%, -40%);
+    
+    }
+.submit{
+    position: absolute;
+    left: 42%;
+    top: 51%;
+    transform: translate(-42%, -51%);
+   
+    width: 40px;
+    height: 20px;
+    
+}
+.imag{
+    position: absolute;
+    left: 50%;
+    top: 27%;
+    transform: translate(-50%, -27%);
+}
+input[type=text] {
+    width: 280%;
+    padding: 12px 20px;
+    margin: 100px 0px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border-width: 1px;
+  }
+input[type=submit]{
+    width: 125px;
+    height: 35px;
+    border-radius: 5px;
+    border-color: whitesmoke;
+    background-color: whitesmoke;
+}
+.submit1{
+    position: absolute;
+    left: 51%;
+    top: 51%;
+    transform: translate(-51%, -51%);
+   
+    width: 40px;
+    height: 20px;
+    
+}
+.search{
+    width: 20px;
+    position: absolute;
+    left: 32.5%;
+    top: 43%;
+    transform: translate(-35%, -40%);
+    
+}
+#input{
+    
+    position: absolute;
+    left: 47.3%;
+    top: 28.8%;
+    transform: translate(-47.3%, -28.8%);
+}
+input[type=search]{
+
+    width: 30%;
+    padding: 12px 20px;
+    margin: 100px 0px;
+    box-sizing: border-box;
+    border-width: 0px;
+    border-color: white;
+
+}
