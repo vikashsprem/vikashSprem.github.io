@@ -1,7 +1,7 @@
 body {
   background-image: url('image/M3-Homepage.jpg');
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: auto;
   background-size: cover;
   
 }
