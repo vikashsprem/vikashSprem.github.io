@@ -1,7 +1,35 @@
-body {
-  background-image: url('image/M3-Homepage.jpg');
-  background-repeat: no-repeat;
-  background-attachment: auto;
-  background-size: cover;
-  
+body{
+    color: #171a20;
+    font-family: 'M PLUS 1',sans-serif;
+}
+header{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
+.desktop{
+    display: none;
+}
+@media (min-width:768px){
+    .desktop{
+        display: initial;
+    }
+    
+}
+a.logo{
+    height: 12px;
+    width: 100px;
+    color: inherit;
+}
+header a{
+    color: inherit;
+}
+header nav a{
+    text-decoration: none;
+    padding: 5px 10px;
+}
+header nav.centre{
+    text-align: center;
+}
+header nav.right{
+    text-align: right;
 }
