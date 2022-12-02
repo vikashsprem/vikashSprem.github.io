@@ -1,16 +1,7 @@
-.box{
-    width: 538px;
-    border: 1px solid black;
-    padding: 22px;
-    position: absolute;
-    left: 50%;
-    top: 39%;
-    transform: translate(-50%,-39%);
-    border-radius: 25px;
-}
-.img{
-    position: absolute;
-    left: 50%;
-    top: 23%;
-    transform: translate(-50%,-25%);
+body {
+  background-image: url('image/M3-Homepage.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
 }
