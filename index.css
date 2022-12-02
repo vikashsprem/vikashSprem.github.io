@@ -46,5 +46,5 @@ header nav.right{
 section{
     height: 100vh;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
 }
