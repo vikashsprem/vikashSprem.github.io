@@ -1,5 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -12,11 +13,12 @@ body {
 .container {
     max-width: 800px;
     height: 90%;
-    padding: 20px;
+    padding: 22px;
     text-align: center;
     background-color: inherit;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: rgb(249, 231, 255);
 }
 
 
@@ -51,7 +53,7 @@ body {
 }
 
 .facebook {
-    background-color: #3b5998;
+    background-color: #373739;
 }
 
 .twitter {
@@ -59,7 +61,7 @@ body {
 }
 
 .github {
-    background-color: #333;
+    background-color: #554343;
 }
 
 .btn:hover {
@@ -103,9 +105,11 @@ body.dark-mode {
 
 i {
     border: 2px solid #333;
-    width: 30px;
+    width: 25px;
+    align-items: center;
+    text-align: center;
     border-radius: 6px;
-    padding: 3px;
+    padding: 2px;
 }
 
 .header {
