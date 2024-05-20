@@ -276,8 +276,10 @@ img {
 }
 
 .about__container {
-    row-gap: 2rem;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .about__subtitle {
@@ -299,7 +301,6 @@ img {
     background-color: rgb(2, 6, 23);
     color: #ffffff;
     animation: fadeIn 1s ease-in-out forwards;
-
 }
 
 .skills__container {
@@ -364,7 +365,7 @@ img {
 
 @media only screen and (max-width: 56.25em) {
     .skillss {
-        margin-left: 13%;
+        margin-left: 7%;
     }
 }
 
@@ -463,15 +464,29 @@ img {
         bottom: 15%;
     }
 
-    .about__container,
     .skills__container {
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
         text-align: initial;
     }
 
+    .about__container {
+        display: flex;
+        text-align: initial;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     .about__img img {
         width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about__img {
+        display: flex;
+        margin: 4rem;
+
     }
 }
 
@@ -488,18 +503,31 @@ img {
 
 
 .project-container {
-    width: 100%;
-    max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+@media (max-width: 800px) {
+    .project {
+        flex: 1 1 45%;
+    }
+}
+
+@media (max-width: 500px) {
+    .project {
+        flex: 1 1 100%;
+    }
 }
 
 .project {
+    flex: 1 1 30%;
     border: 1px solid #ddd;
     padding: 20px;
     border-radius: 8px;
-    width: calc(33% - 20px);
+    min-width: 300px;
+    margin: 7px;
     box-sizing: border-box;
     text-align: center;
     opacity: 0;
