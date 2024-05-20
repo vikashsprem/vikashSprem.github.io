@@ -277,8 +277,8 @@ img {
 
 .about__container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    text-align: initial;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -470,13 +470,6 @@ img {
         text-align: initial;
     }
 
-    .about__container {
-        display: flex;
-        text-align: initial;
-        justify-content: space-between;
-        align-items: center;
-    }
-
     .about__img img {
         width: 300px;
     }
@@ -487,6 +480,14 @@ img {
         display: flex;
         margin: 4rem;
 
+    }
+
+    .about__container {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
