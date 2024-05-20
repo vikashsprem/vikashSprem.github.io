@@ -294,7 +294,9 @@ img {
     width: 200px;
     border-radius: .5rem;
 }
-
+.about__img{
+    gap: 2rem;
+}
 /* ===== SKILLS =====*/
 
 #skills {
